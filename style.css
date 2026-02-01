@@ -1,0 +1,48 @@
+/* ful body no margin */
+body{
+    margin: 0px;
+}
+
+/* margin around main body */
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+h1{
+    text-align: center;
+}
+/* changes in list items */
+.navbar ul{
+    list-style-type: none;
+    background-color: chocolate;
+    padding: 0px;
+    margin: 0px;
+    overflow:hidden;
+    /* propery of list stays intact */
+}
+
+/* changes for the elements */
+.navbar a{
+    color:palegreen;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+
+/* while hovering changes */
+.navbar a{
+    background-color: darksalmon;
+
+}
+
+.navbar li{
+    float:left;
+    /* left centering of text of list to appear as abcd */
+
+
+    }
